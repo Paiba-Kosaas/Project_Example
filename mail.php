@@ -1,5 +1,6 @@
 <?php
 
+    //Recibimos del JS
     if (isset($_POST['submit'])) {
         
         $name       = $_POST['name'];
@@ -26,6 +27,7 @@
         echo "There was an error!";
     }
 ?>
+
 
 <script>
 

@@ -6,6 +6,7 @@ $(document).ready(function(){
         var gender = $("#mail-gender").val();
         var message = $("#mail-message").val();
         var submit = $("#mail-submit").val();
+        //Mandamos informacion al php
         $(".form-message").load("mail.php", {
           name: name,
           email: email,

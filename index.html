@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        crossorigin="anonymous"></script>
+        <title></title>
+    </head>
+    
+    <body>
+
+        <form action="mail.php" method="POST">
+            <input id="mail-name" type="text" name="name" placeholder="Full name">
+            <br>
+            <input id="mail-email" type="text" name="email" placeholder="E-mail">
+            <br>
+            <select id="mail-gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <br>
+            <textarea id="mail-message" name="message" placeholder="Mesagge" ></textarea>
+            <br>
+            <button id="mail-submit" type="submit" name = "submit">Send e-mail</button>
+            <p class="form-message"></p>
+
+        </form>
+
+    </body>
+    
+    <script src="main.js"></script>
+</html>
